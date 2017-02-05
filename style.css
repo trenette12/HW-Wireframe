@@ -15,7 +15,7 @@ header
 	height: 70px;
 	width: 240px;
 	text-align: center;
-	margin-left: 160px;
+	margin-left: 110px;
 	background-color: #40AAA5;
 	display: inline-block;
 
@@ -25,8 +25,8 @@ header
 #navbox
 {
 	position: absolute;
-	top: 25px;
-	right: 200px;
+	top: 30px;
+	right: 320px;
 	color: #a9a9a9;
 	font-size: 14px;
 }
@@ -44,14 +44,24 @@ footer
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	background-color: #777;
-
+	width: 1200px;
+	height: 70px;
+	margin-left: 30px;
+	border-top: solid #40AAA5 5px;
+	text-align: center;
 }
 
 section
 {
-	width: 495px;
+	width: 500px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+	float: left;
+	background-color: #fff;
+	height: 400px;
+	margin-left: 110px;
+	margin-top: 20px;
+	text-align: center;
 
 }
 
@@ -59,7 +69,13 @@ aside
 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
-
+	width: 270px;
+	background-color: #fff;
+	margin-right: 240px;
+	margin-top: 20px;
+	height: 200px;
+	float: right;
+	text-align: center;
 }
 
 article
@@ -69,11 +85,9 @@ article
 
 }
 
-.clear
+.clearfix
 {
-
-
-
+	clear: both;
 }
 
 h1
@@ -94,6 +108,9 @@ h2
 h3
 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #40AAA5;
+	text-align: left;
+	margin-left: 25px;
 
 }
 
@@ -101,6 +118,8 @@ p
 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #headone
@@ -111,4 +130,36 @@ p
 	margin-left: 30px;
 	background-color: #ffffff;
 	margin-top: 15px;
+	border-bottom: solid #a9a9a9 1px;
 }
+
+li
+{
+	display: inline;
+	float: left;
+}
+
+#opaquetext
+{
+	color: #a9a9a9;
+	opacity: .2;
+
+}
+
+#wrapper
+{
+	width: 1200px;
+	background-color: #eee;
+	height: 450px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.left 
+{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+
